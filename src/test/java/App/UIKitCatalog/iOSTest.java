@@ -15,7 +15,6 @@ public class iOSTest extends BaseTest {
         alertViews.clickConfirmCancel();
         String message = alertViews.getTextMessage();
         Assert.assertEquals(message, "A message should be a short, complete sentence.", "Incorrect text");
-        alertViews.clickConfirm();
     }
 
 }
